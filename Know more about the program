@@ -1,0 +1,29 @@
+# Swiggy-crawler-with-Tkinter-Gui
+Let's crawl data from swiggy.com of all the cities with links. And the restaurants available in that city with links and save in "csv" format separately. 
+Here I have wrote simple code to crawl city name, links and the restaurants present in the particular city
+The data crawled is saved seprately.
+
+How to use it:
+
+1.
+You can see in the gui (Gui.png) second line says 
+"Enter swiggy link to download all city links" here you are suppose to input "https://www.swiggy.com" 
+to save all city names and their respective links as "city links.csv",
+then click on button next to text box,  label "get all city of india"
+and voila you have all the city name and their respective links saved in csv format.
+
+2.
+You can see in the gui (Gui.png) first line says
+"Enter city link to get all restraurant links" here you are suppose to input "https://www.swiggy.com/" + city name
+for example "https://www.swiggy.com/mumbai" or "https://www.swiggy.com/pune" 
+you can get this links and name of all restraurant from page one to last page (Pagination)
+then click on button next to text box,  label "get restraurant link of particular city"
+and voila you have the names of all restraurants and their respective links saved in csv format.
+
+3.
+To end the program click on "Quit" button
+
+Future scope: 
+1.To apply proxies so that there wont be any disturbance while crawling
+2.Integrate zomato crawler
+3.After integrating comapring the food rates and recommend the best one.
